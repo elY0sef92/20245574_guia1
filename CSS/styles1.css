@@ -1,0 +1,11 @@
+div{font-size: 20px;}
+
+body{background-color: lightblue;}
+
+h2{text-decoration:underline;
+    color: white;
+}
+p:first-of-type{color:navy;font-weight: bold ;}
+p:nth-of-type(2){text-transform: uppercase;text-align: justify;}
+p:last-of-type{font-size: 12px;}
+.S{font-style: italic ;}

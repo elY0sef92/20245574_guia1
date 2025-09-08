@@ -1,0 +1,93 @@
+.Title{text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff9800;
+    margin-top: 30px;
+    margin-bottom: 10px;}
+body {
+    background: #fffbe6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.intro {
+    text-align: center;
+    font-size: 1.18em;
+    max-width: 750px;
+    margin: 28px auto 18px auto;
+    color: #333;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(255, 152, 0, 0.10);
+    padding: 22px 28px;
+    line-height: 1.6;
+    border-left: 6px solid #ff9800;
+}
+.sagas img {
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(25, 118, 210, 0.15);
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid #ff9800;
+    background: #fffbe6;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.sagas article:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 32px rgba(25, 118, 210, 0.22);}
+
+.sagas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.sagas article {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    padding: 24px;
+    width: 340px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.sagas article:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+.sagas h2 {
+    color: #1976d2;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.sagas img {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 15px;
+}
+
+.sagas p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sagas ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.sagas li {
+    margin-bottom: 5px;
+    color: #444;
+}
